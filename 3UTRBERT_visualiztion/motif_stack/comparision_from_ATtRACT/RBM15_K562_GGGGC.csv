@@ -1,0 +1,66 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGC,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,5,-1,0.00148249,2.34677,0.0782568,5
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGC,Mutation assay; REMSA; UV cross-linking in HeLa nuclear extract; Immunoblotting,ZF_RNPHF,5,-1,0.00148249,2.34677,0.0782568,5
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGC,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,5,-1,0.00148249,2.34677,0.0782568,5
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGC,Mutation assay; REMSA; UV cross-linking in HeLa nuclear extract; Immunoblotting,ZF_RNPHF,5,-1,0.00148249,2.34677,0.0782568,5
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGC,Mutation assay; REMSA; UV cross-linking in HeLa nuclear extract; Immunoblotting,RRM;ZF_RNPHF,5,-1,0.00148249,2.34677,0.0782568,5
+[GATC]GGGGC[GATC],No,RBM5,ENSG00000003756,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein.,ZF_RANBP,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPK,ENSG00000165119,Homo_sapiens,GGGGGGG,Western blot of AMA (human amnion) cell extracts and homoribopolymers. Western blot of recombinant proteins and homoribopolymers.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPU,ENSG00000153187,Homo_sapiens,GGGGGGG,SDS-PAGE of ribonucleotide homopolymers with recombinant protein,SAP;SPRY,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,PTBP1,ENSG00000011304,Homo_sapiens,GGGGGGG,Fluorescence spectroscopy with recombinant protein.,PTBP1,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,DAZAP1,ENSG00000071626,Homo_sapiens,GGGGGGG,In vitro RNA-binding assay of Homopolymers and SDS-PAGE with recombinant protein.,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,ZF_RNPHF,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,PCBP1,ENSG00000169564,Homo_sapiens,GGGGGGG,Western blot of AMA (human amnion) cell extracts and homoribopolymers. Western blot of recombinant proteins and homoribopolymers.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,PCBP2,ENSG00000197111,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,RRM;ZF_RNPHF,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,FUS,ENSG00000089280,Homo_sapiens,GGGGGGG,SDS-PAGE; EMSA; UV crosslink; competition and immunoprecipitation assays with HeLa nuclear extracts.,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPK,ENSG00000165119,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,FUS,ENSG00000089280,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,RRM;ZF_RNPHF,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,ZF_RNPHF,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,NOVA2,ENSG00000104967,Homo_sapiens,GGGGGGG,SELEX of 52-nt random with protein. Consensus motif: GAGUCAU. Filter Binding Assays; immunoblot of homopolymers.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,ZF_RNPHF,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPM,ENSG00000099783,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,RRM;HNRNP_M,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,FMR1,ENSG00000102081,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,FMR1,ENSG00000102081,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,PCBP2,ENSG00000197111,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,PCBP1,ENSG00000169564,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,FMR1,ENSG00000102081,Homo_sapiens,GGGGGGG,Homopolymer binding assay using recombinant protein,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,FMR1,ENSG00000102081,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,PCBP1,ENSG00000169564,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPC,ENSG00000092199,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinant protein,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPU,ENSG00000153187,Homo_sapiens,GGGGGGG,EMSA; UV crosslink; immunoprecipitation using HeLa cell nuclear extracts. UV crosslink; competition assay with purified protein.,SAP;SPRY,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,ZF_RNPHF,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPU,ENSG00000153187,Homo_sapiens,GGGGGGG,Filter Binding Assay with purified protein.,SAP;SPRY,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,NOVA1,ENSG00000139910,Homo_sapiens,GGGGGGG,Immunoblots and Filter Binding Assay.,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPK,ENSG00000165119,Homo_sapiens,GGGGGGG,Homopolymer binding assay with recombinat protein,KH,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGGGGG,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPC,ENSG00000092199,Homo_sapiens,GGGGGGG,UV cross-linking; Immunoprecipitation,RRM,7,0,0.00151834,2.40353,0.0782568,7
+[GATC]GGGGC[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,RRM,8,0,0.00222702,3.52537,0.0966021,7
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,RRM;ZF_RNPHF,8,0,0.00222702,3.52537,0.0966021,7
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,ZF_RNPHF,8,0,0.00222702,3.52537,0.0966021,7
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,ZF_RNPHF,8,0,0.00222702,3.52537,0.0966021,7
+[GATC]GGGGC[GATC],No,HNRNPF,ENSMUSG00000042079,Mus_musculus,GGGGGCUG,Gel mobility shift and UV cross-linking Immunoprecipitation and Western blot analysis,RRM;ZF_RNPHP,8,0,0.00222702,3.52537,0.0966021,7
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSMUSG00000007850,Mus_musculus,GGGGGCUG,Gel mobility shift and UV cross-linking Immunoprecipitation and Western blot analysis,ZF_RNPHP,8,0,0.00222702,3.52537,0.0966021,7
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGG,UV cross-linking; pull-down assay; immunoblotting in HeLa nuclear extracts with wt and mutated RNAs.,ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGG,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGG,UV cross-linking; pull-down assay; immunoblotting in HeLa nuclear extracts with wt and mutated RNAs.,ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGG,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,RRM;ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGGG,UV cross-linking; pull-down assay; immunoblotting in HeLa nuclear extracts with wt and mutated RNAs.,RRM,5,0,0.00237408,3.75817,0.0966021,5
+[GATC]GGGGC[GATC],No,PPRC1,ENSG00000148840,Homo_sapiens,SSGCGCS,RNAcompete,RRM,7,0,0.00277389,4.39107,0.108584,7
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGG,Immunoprecipitation;UV cross-linking,ZF_RNPHF,4,-1,0.00338169,5.35321,0.129108,4
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CGGGGGGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,4,0.00412249,6.5259,0.146536,6
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CUGGGGGCUG,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,10,2,0.00412249,6.5259,0.146536,7
+[GATC]GGGGC[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CUGGGGGCUG,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,10,2,0.00412249,6.5259,0.146536,7
+[GATC]GGGGC[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,CGGGGGGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,10,4,0.00412249,6.5259,0.146536,6
+[GATC]GGGGC[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,CGGGGGGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,10,4,0.00412249,6.5259,0.146536,6
+[GATC]GGGGC[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CGGGGGGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,4,0.00412249,6.5259,0.146536,6
+[GATC]GGGGC[GATC],No,SRSF1,ENSG00000136450,Homo_sapiens,GAGCGGA,RNAcompete using recombinant protein,RRM,7,0,0.00475441,7.52622,0.167077,7
+[GATC]GGGGC[GATC],No,SFPQ,ENSG00000116560,Homo_sapiens,GGGGGGGAUC,SELEX of 20nt random with recombinant protein. Consensus motif: UGGAGAGGAAC.,RRM,10,0,0.00494297,7.82471,0.171752,7
+[GATC]GGGGC[GATC],No,CG33714,FBGN0064117,Drosophila_melanogaster,BBGCGUG,RNAcompete,RRM,7,0,0.00500614,7.92472,0.172014,7
+[GATC]GGGGC[GATC],No,SRSF1,ENSG00000136450,Homo_sapiens,GGRGGAV,RNAcompete,RRM,7,0,0.00551235,8.72604,0.187327,7

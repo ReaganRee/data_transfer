@@ -1,0 +1,5 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+TTCCAGC,No,SRSF2,ENSG00000161547,Homo_sapiens,GGUUCCUGUUA,SELEX of 20-nt random with recombinant protein. Consensus motif: UGUUCSAGWU; GWUWCCUGCUA; GGGUAUGCUG; GAGCAGUAGKS and AGGAGAU. Winners confirmed by EMSA with recombinant protein; UV crosslink; complementation assay; immunoprecipitations with HeLa S100 and nuclear extracts.,RRM,11,2,0.000593868,0.940093,1,7
+TTCCAGC,No,SNRPA,ENSG00000077312,Homo_sapiens,GWUWCCUGCUA,SELEX,RRM,11,2,0.00126079,1.99583,1,7
+TTCCAGC,No,YBX1,ENSG00000065978,Homo_sapiens,UCCAGCAA,RNA footprinting,CSD,8,-1,0.00175877,2.78413,1,6
+TTCCAGC,No,SRSF2,ENSG00000161547,Homo_sapiens,UCCAGU,SOLUTION NMR,RRM,6,-1,0.00517541,8.19268,1,6

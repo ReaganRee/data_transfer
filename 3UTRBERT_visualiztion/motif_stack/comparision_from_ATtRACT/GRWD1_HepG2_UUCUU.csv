@@ -1,0 +1,25 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCCUCUUC,Chemical shift mapping (NMR),PTBP1,8,1,0.000496843,0.786502,0.0548725,7
+CTTCTTC,No,SRSF3,ENSG00000112081,Homo_sapiens,CCUCUUCC,NMR spectroscopy,RRM,8,0,0.000496843,0.786502,0.0548725,7
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCCUCUUC,NMR,RRM,8,1,0.000496843,0.786502,0.0548725,7
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UUCUUC,Mutagenesis; Pull down assay and Western blot with HeLa nucelar extract.,PTBP1,6,-1,0.000673847,1.0667,0.0631453,6
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UUCUUC,In vivo splicing assay;Mutagenesis;UV cross-linking,RRM,6,-1,0.000673847,1.0667,0.0631453,6
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCUUCUU,in vitro splicing in HeLa nuclear extract.,PTBP1,7,1,0.0009326,1.47631,0.0758937,6
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCUUCUU,SELEX of 20nt random with recombinant protein. Consensus motifs: UCUU and UCUUC. UV crosslink and SDS-PAGE with HeLa nuclear extract. Equilibrium binding assays with another protein or other RNAs as competitors.,PTBP1,7,1,0.0009326,1.47631,0.0758937,6
+CTTCTTC,No,PTBP1,ENSRNOG00000010448,Rattus_norvegicus,UCUUCUU,UV cross-linking,RRM,7,1,0.0009326,1.47631,0.0758937,6
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCUUC,Chemical shift mapping (NMR),PTBP1,5,-2,0.00122961,1.94647,0.092742,5
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCUUC,NMR,RRM,5,-2,0.00122961,1.94647,0.092742,5
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,CUCUUU,SELEX of 20nt random with recombinant protein. Consensus motifs: UCUU and UCUUC. UV crosslink and SDS-PAGE with HeLa nuclear extract. Equilibrium binding assays with another protein or other RNAs as competitors.,PTBP1,6,-1,0.00166493,2.63559,0.117014,6
+CTTCTTC,No,SRSF7,ENSG00000115875,Homo_sapiens,UCUUCA,UV-cross link with HeLa nuclear extract,RRM,6,-2,0.00349779,5.537,0.17446,5
+CTTCTTC,No,SRSF7,ENSG00000115875,Homo_sapiens,UCUUCA,S100 complementation,RRM,6,-2,0.00349779,5.537,0.17446,5
+CTTCTTC,No,SRSF3,ENSG00000112081,Homo_sapiens,UUCUUCAUCC,In vivo splicing with deletion and mutation analysis. RNA pulldown assay in HeLa nuclear extracts.,RRM,10,2,0.00369273,5.84559,0.181259,7
+CTTCTTC,No,TIA1,ENSG00000116001,Homo_sapiens,CUUUUUC,SELEX of 68nt random with recombinant protein. Winners confirmed by UV cross-linking and competition assay.,RRM,7,0,0.00417439,6.60807,0.198598,7
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UUCUUU,Mutagenesis; Pull down assay and Western blot with HeLa nucelar extract.,PTBP1,6,-1,0.00502157,7.94914,0.228362,6
+CTTCTTC,No,RBM4,ENSG00000173933,Homo_sapiens,CCUCUUU,Mutagenesis; in vivo splicing assay,RRM;ZF_CCHC,7,0,0.00544078,8.61276,0.234945,7
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,CCUCUUU,Mutagenesis; in vivo splicing assay,PTBP1,7,0,0.00544078,8.61276,0.234945,7
+CTTCTTC,No,RBM4,ENSG00000173933,Homo_sapiens,UCCUUCUUG,Mutational analysis; UV cross-linking assay with purified recombinant protein.,RRM;ZF_CCHC,9,2,0.00561808,8.89342,0.234945,7
+CTTCTTC,No,TIAL1,ENSG00000151923,Homo_sapiens,GUUUUUG,SELEX of 68nt random with recombinant protein. Winners confirmed by UV cross-linking and competition assay.,RRM,7,0,0.00571322,9.04403,0.234945,7
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCUU,NMR,RRM,4,-2,0.00608704,9.63579,0.234945,4
+CTTCTTC,No,PTBP1,ENSG00000011304,Homo_sapiens,UCUU,SELEX,RRM,4,-2,0.00608704,9.63579,0.234945,4
+CTTCTTC,No,NAB3,YPL190C,Saccharomyces_cerevisiae,UCUU,SOLUTION NMR,RRM,4,-2,0.00608704,9.63579,0.234945,4
+CTTCTTC,No,NAB3,YPL190C,Saccharomyces_cerevisiae,UCUU,X-RAY DIFFRACTION,RRM,4,-2,0.00608704,9.63579,0.234945,4

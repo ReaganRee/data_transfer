@@ -1,0 +1,102 @@
+#install.packages("hrbrthemes")
+install.packages('palmerpenguins')
+library(ggplot2)
+library(dplyr)
+library(patchwork) # To display 2 charts together
+library(hrbrthemes)
+library(ggthemes)
+library(tidyverse)
+library(ggforce)
+# draw all data points > 0.003 that has not been normalized
+data <- read.csv("//Users/reagan/Desktop/3UTRBERT_visualiztion/experiment_tim/experiment_tim_pos_threshold.csv", header=TRUE)
+
+
+
+# draw all data points
+data2 <- read.csv("/Users/reagan/Desktop/3UTRBERT_visualiztion/experiment_tim/experiment_tim_pos_all.csv", header=TRUE)
+
+
+# draw normalized result
+data3 <- read.csv("/Users/reagan/Desktop/3UTRBERT_visualiztion/experiment_tim/experiment_tim_pos_final_normalized.csv", header=TRUE)
+p3<-ggplot()
+
+
+p <- p3 + scale_y_continuous(
+  
+  # Features of the first axis
+  name = "Frequency",
+  
+  # Add a second axis and specify its features
+  sec.axis = sec_axis( trans=~.*0.002, name="Normalized Frequency")
+) + annotate("rect", xmin = -0.08, xmax = 0.3, ymin =0, ymax = 520,alpha = .23,fill = "grey") + labs(x="Relative DIstance", y="Frequency")+
+  theme_few() + 
+  theme(axis.title.y.right = element_text(angle =270, colour="#3c7781", vjust=1, size=14)) + geom_vline(alpha=0.3, xintercept = 0.3, linetype = "dashed") +
+  geom_vline(alpha=0.3, xintercept = 0.7, linetype = "dashed") + theme(axis.text.y.right = element_text(colour="#3c7781",size=14), axis.title.y.right=element_text(size=14, face = "bold"), axis.title.y.left = element_text(size=14, face = "bold"),axis.title.x = element_text(size=14,face = "bold"))+
+  annotate("segment", x = 0.55, xend = 0.995, y = 0, yend = 0,
+               colour = "Black", size=0.4, alpha=1,
+               arrow=arrow(length = unit(0.25, "cm"), type = "closed")) +
+  annotate("segment", x = 0.45, xend = 0.005, y = 0, yend = 0,
+           colour = "Black", size=0.4, alpha=1,
+           arrow=arrow(length = unit(0.25, "cm"), type = "closed"))+
+  geom_vline(alpha=0.3, xintercept = 0, linetype = "dashed")+
+  annotate("text", x = -0.02, y = 55, label = "Stop Codon",
+           color="Black",size = 4, angle=90, fontface="bold" )+
+  annotate("text", x = 0.50, y = 0, label = "3'UTR",
+           color="Black",size = 4, angle=0, fontface="bold" )+
+  annotate("text", x = 0.18, y = 500, label = "Area near stop codon",
+           color="Black",size = 4, angle=0, fontface="bold")+
+  annotate(geom = "point", x = 0.78, y = 510, colour = "grey", size = 2)+
+  annotate(geom = "point", x = 0.81, y = 510, colour = "grey", size = 4)+
+  annotate(geom = "point", x = 0.85, y = 510, colour = "grey", size = 6)+
+  annotate(geom = "point", x = 0.9, y = 510, colour = "grey", size = 8)+
+  annotate(geom = "point", x = 0.96, y = 510, colour = "grey", size = 10) +
+  annotate("text", x = 0.78, y = 470, label = "0.1",
+           color="Black",size = 4, angle=0,fontface="bold",alpha=.5) +
+  annotate("text", x = 0.97, y = 470, label = "0.8",
+           color="Black",size = 4, angle=0 ,fontface="bold",alpha=.5) +
+  annotate("segment", x = 0.8, xend = 0.95, y = 470, yend = 470,
+           colour = "black", size=0.3, alpha=.5,
+           arrow=arrow(length = unit(0.25, "cm")), type = "closed")+
+  annotate("text", x = 0.8725, y = 480, label = "Attention score",
+           color="Black",size = 3.4, angle=0, fontface="bold", alpha=.5 ) + 
+  theme(plot.margin=margin(t = 10,  # Top margin
+                           r = 10,  # Right margin
+                           b = 10,  # Bottom margin
+                           l = 10), panel.spacing.y = unit(5, "lines"))+
+  theme(axis.text.x=element_text(size=14, hjust = 0.5,vjust = 0.5,colour="black"))+
+  theme(axis.text.y=element_text(size=14, hjust = 1,vjust = 0.5,colour="black"))+
+  annotate("text", x = 0.55-0.05, y = 310, label = "Spearman's ρ: -0.64",
+           color="#3c7781",size = 3.7, angle=0, fontface="bold", alpha=.8 ) +
+  annotate("text", x = 0.544-0.05, y = 432-140, label = "p-value: 6.141e-13",
+           color="#3c7781",size = 3.7, angle=0, fontface="bold", alpha=.8 ) +
+  annotate("text", x = 0.5-0.4, y = 80-10, label = "Spearman's ρ: -0.77",
+           color="#3c7781",size = 3.7, angle=0, fontface="bold", alpha=.8 ) +
+  annotate("text", x = 0.473-0.4, y = 62-10, label = "p-value: 0.009",
+           color="#3c7781",size = 3.7, angle=0, fontface="bold", alpha=.8 ) +
+  annotate("text", x = 0.55-0.05, y = 80-10, label = "Spearman's ρ: 0.007",
+           color="#3c7781",size = 3.7, angle=0, fontface="bold", alpha=.8 ) +
+  annotate("text", x = 0.516-0.05, y = 62-10, label = "p-value: 0.52",
+           color="#3c7781",size = 3.7, angle=0, fontface="bold", alpha=.8 ) +
+  # annotate("text", x = 0.5, y = 485, label = "Within 0.01 relative distance of stop\ncodon,m6a site appear the most times\nand has the highest averaged attention",
+  #          color="Black",size = 3.75, angle=0, alpha=.6)+
+  # annotate("rect", xmin = -0.049, xmax = 0.049, ymin =457, ymax = 533,fill = NA, color = "#3c7781",linetype="dashed")+
+  geom_vline(alpha=0.25, xintercept = 0.1, linetype = "dotted")+
+  annotate("segment", x = 0.005, xend = 0.095, y = 25, yend = 25,
+           colour = "Black", size=0.3, alpha=.6,
+           arrow=arrow(length = unit(0.15, "cm"), type = "closed"))+
+  annotate("segment", x = 0.095, xend = 0.005, y = 25, yend = 25,
+           colour = "Black", size=0.3, alpha=.6,
+           arrow=arrow(length = unit(0.15, "cm"), type = "closed")) +
+  annotate("segment", x = 0.105, xend = 0.995, y = 25, yend = 25,
+           colour = "Black", size=0.3, alpha=.6,
+           arrow=arrow(length = unit(0.15, "cm"), type = "closed"))+
+  annotate("segment", x = 0.995, xend = 0.105, y = 25, yend = 25,
+           colour = "Black", size=0.3, alpha=.6,
+           arrow=arrow(length = unit(0.15, "cm"), type = "closed")) + 
+  annotate("text", x = 0.05, y = 12.5, label = "10%",
+           color="Black",size = 3.8, angle=0, alpha=.6 ,face='bold') +
+  geom_point( data = data2, aes(x = Relative_distance, y=Frequency), size= data2$attn_average_n*120, color = "#381657", alpha=0.65) +
+  geom_point( data = data, aes(x = Relative_distance, y=Frequency), size= data$attn_average_n*120, color = "#95cc51", alpha=0.65) +
+  geom_point(data = data3, aes(x = Relative_distance, y=Frequency*500), size= data$attn_average_n*120, color = "#3c7781", alpha=0.65) 
+ggsave(p,file = "/Users/reagan/Desktop/3UTRBERT_visualiztion/experiment_tim/bubble.png", width = 10.5, height = 6, type = "cairo", dpi = 1500) 
+

@@ -1,0 +1,9 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[CG]CCGGG[GATC],No,SRSF1,ENSG00000136450,Homo_sapiens,CGCCGGA,Functional SELEX of random 7nt and 14nt with recombinant protein. Consensus motifs: CSScSSR and CSMMSSA.,RRM,7,0,0.00329764,5.22016,0.636058,7
+[CG]CCGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CGGGC,EMSA; UV cross-linking; immunoprecipitation and Western blotting with HEK293T nuclear extract,ZF_RNPHF,5,-2,0.00451933,7.1541,0.636058,5
+[CG]CCGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,-2,0.00451933,7.1541,0.636058,5
+[CG]CCGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,-2,0.00451933,7.1541,0.636058,5
+[CG]CCGGG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,CGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,5,-2,0.00451933,7.1541,0.636058,5
+[CG]CCGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,CGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,5,-2,0.00451933,7.1541,0.636058,5
+[CG]CCGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,CGGGC,EMSA; UV cross-linking; immunoprecipitation and Western blotting with HEK293T nuclear extract,RRM,5,-2,0.00451933,7.1541,0.636058,5
+[CG]CCGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CGGGC,EMSA; UV cross-linking; immunoprecipitation and Western blotting with HEK293T nuclear extract,ZF_RNPHF,5,-2,0.00451933,7.1541,0.636058,5

@@ -1,0 +1,23 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+GGGCAGG,No,HNRNPA1,ENSG00000135486,Homo_sapiens,UAGGGCAGGC,UV crosslink; immunoprecipitation in HeLa cell nuclear extracts.,RRM,10,2,0.000151364,0.239608,0.236323,7
+GGGCAGG,No,HNRNPH1,ENSG00000169045,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,1,0.000829641,1.31332,0.236323,7
+GGGCAGG,No,HNRNPH3,ENSG00000096746,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,10,1,0.000829641,1.31332,0.236323,7
+GGGCAGG,No,HNRNPF,ENSG00000169813,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,10,1,0.000829641,1.31332,0.236323,7
+GGGCAGG,No,HNRNPH2,ENSG00000126945,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,1,0.000829641,1.31332,0.236323,7
+GGGCAGG,No,SRSF1,ENSG00000136450,Homo_sapiens,AGAGCAGG,UV cross-linking and immunoprecipitation with HeLa nuclear extract,RRM,8,1,0.00224471,3.55338,0.236323,7
+GGGCAGG,No,SRSF1,ENSG00000136450,Homo_sapiens,AGAGCAGG,In Vitro Splicing;Uv cross-linking;HeLa cell,RRM,8,1,0.00224471,3.55338,0.236323,7
+GGGCAGG,No,HNRNPH1,ENSGALG00000005955,Gallus_gallus,GGGGCUG,Mutagenesis;UV cross-linking,ZF_RNPHF,7,1,0.00255728,4.04818,0.236323,6
+GGGCAGG,No,HNRNPF,HNRNPF,Gallus_gallus,GGGGCUG,Mutagenesis;UV cross-linking,N/A,7,1,0.00255728,4.04818,0.236323,6
+GGGCAGG,No,FMR1,ENSG00000102081,Homo_sapiens,KGACARG,RNAcompete,KH;FXR1P;AGENET,7,0,0.00320953,5.08068,0.236323,7
+GGGCAGG,No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGAGGG,RNAcompete,ZF_RNPHF,7,-1,0.00371455,5.88013,0.236323,6
+GGGCAGG,No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,RRM,8,2,0.00429966,6.80636,0.236323,6
+GGGCAGG,No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,RRM;ZF_RNPHF,8,2,0.00429966,6.80636,0.236323,6
+GGGCAGG,No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,ZF_RNPHF,8,2,0.00429966,6.80636,0.236323,6
+GGGCAGG,No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGGGCUG,RNA affinity purification with HeLa or WERI-1 nuclear extracts. UV crosslink in HeLa and in WERI-1 extracts. EMSA with purified protein. Immunoprecipitation and Western blot.,ZF_RNPHF,8,2,0.00429966,6.80636,0.236323,6
+GGGCAGG,No,HNRNPF,ENSMUSG00000042079,Mus_musculus,GGGGGCUG,Gel mobility shift and UV cross-linking Immunoprecipitation and Western blot analysis,RRM;ZF_RNPHP,8,2,0.00429966,6.80636,0.236323,6
+GGGCAGG,No,HNRNPH1,ENSMUSG00000007850,Mus_musculus,GGGGGCUG,Gel mobility shift and UV cross-linking Immunoprecipitation and Western blot analysis,ZF_RNPHP,8,2,0.00429966,6.80636,0.236323,6
+GGGCAGG,No,RBM25,ENSG00000119707,Homo_sapiens,CGGGCA,Mutational analysis; immuoprecipitation assay in HeLa cells; EMSA and competition assay with recombinant protein.,RRM;PWI,6,1,0.00575457,9.10949,0.236323,5
+GGGCAGG,No,HNRNPF,ENSG00000169813,Homo_sapiens,AGGGAAGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,10,1,0.00587943,9.30713,0.236323,7
+GGGCAGG,No,HNRNPH1,ENSG00000169045,Homo_sapiens,AGGGAAGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,1,0.00587943,9.30713,0.236323,7
+GGGCAGG,No,HNRNPH2,ENSG00000126945,Homo_sapiens,AGGGAAGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,1,0.00587943,9.30713,0.236323,7
+GGGCAGG,No,HNRNPH3,ENSG00000096746,Homo_sapiens,AGGGAAGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,10,1,0.00587943,9.30713,0.236323,7

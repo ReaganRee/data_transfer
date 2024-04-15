@@ -1,0 +1,2 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[GATC]GGCC[GATC][CG],No,MSS116,YDR194C,Saccharomyces_cerevisiae,GGCCC,X-RAY DIFFRACTION,DEAD;HELICASE_C,5,-1,0.00304103,4.81394,1,5

@@ -1,0 +1,34 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,CCYYCCH,RNAcompete,KH,7,0,0.000454225,0.719039,0.0659035,7
+[GATC]CTCCC[CT],No,PTBP1,ENSRNOG00000010448,Rattus_norvegicus,CUCCUCCCUC,UV cross-linking;immunoprecipitation and competition assays;Western blot analysis,RRM,10,2,0.000646285,1.02307,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCUCCC,Mutational analysis; UV cross-linking; Immunoprecipitation; competition assay in LNCaP extracts,KH,7,1,0.000665332,1.05322,0.0659035,6
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,CCCUCCC,Mutational analysis; UV cross-linking; Immunoprecipitation; competition assay in LNCaP extracts,KH,7,1,0.000665332,1.05322,0.0659035,6
+[GATC]CTCCC[CT],No,PTBP1,ENSG00000011304,Homo_sapiens,GGCUCCCCC,In Vitro Splicing;Uv cross-linking;HeLa cell,RRM,7,1,0.00121181,1.9183,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCCCCC,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,RBM5,ENSG00000003756,Homo_sapiens,CCCCCCC,Homopolymer binding assay with recombinant protein.,ZF_RANBP,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,Homopolymer binding assay with recombinat protein,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,CCCCCCC,UV cross-linking; Immunoprecipitation; competition assay in LNCaP extracts,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCCCCC,Western blot of AMA (human amnion) cell extracts and homoribopolymers. Western blot of recombinant proteins and homoribopolymers.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,EMSA; UV cross-linking; competition assays; western blot; pull-down assay and mass spectrometry with AGS cytoplasmic extracts.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPU,ENSG00000153187,Homo_sapiens,CCCCCCC,Filter Binding Assay with purified protein.,SAP;SPRY,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,Western blot of AMA (human amnion) cell extracts and homoribopolymers. Western blot of recombinant proteins and homoribopolymers.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCCCCC,UV cross-linking; Immunoprecipitation; competition assay in LNCaP extracts,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCCCCC,UV cross-linking. Cell-free translation of different mRNAs.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,Immunoblotting of proteins selected by affinity chromatography with ribonucleotide homopolymer and HeLa nuclear extract.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,UV cross-linking. Cell-free translation of different mRNAs.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PTBP1,ENSG00000011304,Homo_sapiens,CCCCCCC,Fluorescence spectroscopy with recombinant protein.,PTBP1,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,NOVA1,ENSG00000139910,Homo_sapiens,CCCCCCC,Immunoblots and Filter Binding Assay.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,CCCCCCC,Western blot of AMA (human amnion) cell extracts and homoribopolymers. Western blot of recombinant proteins and homoribopolymers.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,CCCCCCC,Homopolymer binding assay with recombinant protein.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,Homopolymer binding assay and Western blot with HeLa extracts or recombinant protein.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPA1,ENSG00000135486,Homo_sapiens,CCCCCCC,Filter binding assay with purified protein,RRM,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCCCCC,EMSA; UV cross-linking; competition assays; western blot; pull-down assay and mass spectrometry with AGS cytoplasmic extracts.,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,ELAVL1,ENSG00000066044,Homo_sapiens,CCCCCCC,UV cross-linking; Immunoprecipitation; competition assay in LNCaP extracts,RRM,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,CCCCCCC,Homopolymer binding assay in HeLa nuclear extract,KH,7,0,0.00148369,2.34869,0.0659035,7
+[GATC]CTCCC[CT],No,KHSRP,N/A,Gallus_gallus,CCCC,SELEX,N\A,4,0,0.00218468,3.45835,0.0822999,7
+[GATC]CTCCC[CT],No,PCBP1,ENSG00000169564,Homo_sapiens,CCCUUCCC,Pull-down assay with recombinant protein and HeLa cell extracts.,KH,8,1,0.00298602,4.72687,0.104547,7
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,CCCUUCCC,Pull-down assay with recombinant protein and HeLa cell extracts.,KH,8,1,0.00298602,4.72687,0.104547,7
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,UCCCCA,NMR using recombinant protein,KH,6,-2,0.00371769,5.88511,0.112898,5
+[GATC]CTCCC[CT],No,PCBP2,ENSG00000197111,Homo_sapiens,UCCCCA,NMR,KH,6,-2,0.00371769,5.88511,0.112898,5
+[GATC]CTCCC[CT],No,HNRNPK,ENSG00000165119,Homo_sapiens,ACCCCCCCCCUA,SELEX of 50nt random with recombinant protein. Consensus motif: u/aCCCCCu/a. Winners confirmed by EMSA with recombinant protein.,KH,12,1,0.0049837,7.8892,0.128174,7

@@ -1,0 +1,32 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,UGUGGG,UV crosslink; competition assays; immunoblot; immunodepletion in HeLa nuclear extracts.,ZF_RNPHF,6,0,0.000479073,0.758373,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,UGUGGG,UV crosslink; competition assays; immunoblot; immunodepletion in HeLa nuclear extracts.,RRM,6,0,0.000479073,0.758373,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,UGUGGG,UV crosslink; competition assays; immunoblot; immunodepletion in HeLa nuclear extracts.,ZF_RNPHF,6,0,0.000479073,0.758373,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,UGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,-2,0.0018726,2.96433,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,UGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,5,-2,0.0018726,2.96433,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,UGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,5,-2,0.0018726,2.96433,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,UGGGC,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,-2,0.0018726,2.96433,0.316637,5
+[GATC]GTGGG[GATC],No,CELF6,ENSG00000140488,Homo_sapiens,UGUGDKG,RNAcompete,RRM,7,0,0.00224381,3.55195,0.316637,7
+[GATC]GTGGG[GATC],No,SUP-12,WBGENE00006321,Caenorhabditis_elegans,GUGUGC,SOLUTION NMR,RRM,6,-1,0.00259207,4.10325,0.316637,6
+[GATC]GTGGG[GATC],No,ASD-1,WBGENE00011279,Caenorhabditis_elegans,GUGUGC,SOLUTION NMR,RRM,6,-1,0.00259207,4.10325,0.316637,6
+[GATC]GTGGG[GATC],No,GTF3A,XB-GENE-6252591,Xenopus_laevis,GGGUGGG,SELEX,ZF_C2H2,7,1,0.00261606,4.14122,0.316637,6
+[GATC]GTGGG[GATC],No,GTF3A,XB-GENE-6252591,Xenopus_laevis,GGGUGGG,SELEX,ZF_C2H2,7,1,0.00261606,4.14122,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,GGGAAUGUGGG,UV cross-linking; immunoprecipitation with HeLa nuclear extract and recombinant protein,ZF_RNPHF,11,5,0.00299718,4.74454,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGAAUGUGGG,UV cross-linking; immunoprecipitation with HeLa nuclear extract and recombinant protein,ZF_RNPHF,11,5,0.00299718,4.74454,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,GGGAAUGUGGG,UV cross-linking; immunoprecipitation with HeLa nuclear extract and recombinant protein,RRM;ZF_RNPHF,11,5,0.00299718,4.74454,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,GGGAAUGUGGG,UV cross-linking; immunoprecipitation with HeLa nuclear extract and recombinant protein,RRM,11,5,0.00299718,4.74454,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CUGGGGGCUG,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,10,1,0.00336572,5.32794,0.316637,7
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CUGGGGGCUG,RNA affinity binding assays; immunoblot with WT HeLa nuclear extracts or depleted by RNA affinity chromatography.,ZF_RNPHF,10,1,0.00336572,5.32794,0.316637,7
+[GATC]GTGGG[GATC],No,SUP-12,WBGENE00006321,Caenorhabditis_elegans,UGUGUGCCUG,protein affinity purification,RRM,10,0,0.00336572,5.32794,0.316637,7
+[GATC]GTGGG[GATC],No,SRP14,ENSG00000140319,Homo_sapiens,GUGG,X-RAY DIFFRACTION,SRP14,4,-1,0.00393716,6.23253,0.316637,4
+[GATC]GTGGG[GATC],No,MSS116,YDR194C,Saccharomyces_cerevisiae,GCGGGC,X-RAY DIFFRACTION,DEAD;HELICASE_C,6,-1,0.00484,7.66172,0.316637,6
+[GATC]GTGGG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,UGGGG,Mutation assay; REMSA; UV cross-linking in HeLa nuclear extract; Immunoblotting,RRM;ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,UGGGG,EMSA; UV cross-linking; immunoprecipitation and Western blotting with HEK293T nuclear extract,ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,UGGGG,EMSA; UV cross-linking; immunoprecipitation and Western blotting with HEK293T nuclear extract,ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,UGGGG,Mutation assay; REMSA; UV cross-linking in HeLa nuclear extract; Immunoblotting,ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,UGGGG,UV cross-linking; pull-down assay; immunoblotting in HeLa nuclear extracts with wt and mutated RNAs.,ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,UGGGG,Mutation assay; REMSA; UV cross-linking in HeLa nuclear extract; Immunoblotting,ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,UGGGG,EMSA; UV cross-linking; immunoprecipitation and Western blotting with HEK293T nuclear extract,RRM,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,UGGGG,NMR titration using recombinant protein,RRM;ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,UGGGG,UV cross-linking; pull-down assay; immunoblotting in HeLa nuclear extracts with wt and mutated RNAs.,RRM,5,-2,0.005114,8.09546,0.316637,5
+[GATC]GTGGG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,UGGGG,UV cross-linking; pull-down assay; immunoblotting in HeLa nuclear extracts with wt and mutated RNAs.,ZF_RNPHF,5,-2,0.005114,8.09546,0.316637,5

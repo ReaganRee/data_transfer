@@ -1,0 +1,19 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[CGT]GGGAG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,GGGAGGG,RNAcompete,ZF_RNPHF,7,-1,0.0020797,3.29217,0.489524,6
+[CGT]GGGAG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CGGGA,Mutational analysis; RNA affinity chromatography; UV cross-linking; immunoprecipitation with HeLa nuclear extract.,ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,CGGGA,RNA affinity chromatography assay and immunoblot.,RRM,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,CGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CGGGA,RNA affinity chromatography assay and immunoblot.,ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,CGGGA,Mutational analysis; RNA affinity chromatography; UV cross-linking; immunoprecipitation with HeLa nuclear extract.,RRM,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,CGGGA,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,CGGGA,RNA affinity chromatography assay and immunoblot.,ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,CGGGA,Mutational analysis; RNA affinity chromatography; UV cross-linking; immunoprecipitation with HeLa nuclear extract.,RRM;ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,CGGGA,RNA affinity chromatography assay and immunoblot.,RRM;ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,CGGGA,Mutational analysis; RNA affinity chromatography; UV cross-linking; immunoprecipitation with HeLa nuclear extract.,ZF_RNPHF,5,0,0.00246171,3.89689,0.489524,5
+[CGT]GGGAG[GATC],No,HNRNPH1,ENSG00000169045,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,1,0.00334468,5.29464,0.489524,7
+[CGT]GGGAG[GATC],No,HNRNPH3,ENSG00000096746,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM,10,1,0.00334468,5.29464,0.489524,7
+[CGT]GGGAG[GATC],No,HNRNPF,ENSG00000169813,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,RRM;ZF_RNPHF,10,1,0.00334468,5.29464,0.489524,7
+[CGT]GGGAG[GATC],No,HNRNPH2,ENSG00000126945,Homo_sapiens,AGGGGAGGGG,RNA-affinity chromatography assays with HeLa nuclear extract and immunoblotting.,ZF_RNPHF,10,1,0.00334468,5.29464,0.489524,7
+[CGT]GGGAG[GATC],No,LIN28A,ENSMUSG00000050966,Mus_musculus,GGAG,X-RAY DIFFRACTION,CSD;ZF_CCHC,4,-2,0.00400855,6.34553,0.489524,4

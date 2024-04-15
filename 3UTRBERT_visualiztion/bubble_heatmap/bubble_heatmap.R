@@ -1,0 +1,351 @@
+library(ggplot2)
+library(ggforce)
+library(viridis)
+set.seed(42)
+d <- read.csv("/Users/reagan/Desktop/3UTRBERT_visualiztion/bubble_heatmap/MCC.csv")
+d[1, 3]
+#d <- d[1:31, 2:11]
+
+
+#ggplot(d,aes(X,c("3mer", "4mer", "5mer", "6mer", "BERT-RBP", "IDeepE", "RNA-FM", "GraphProt2", "GNN", "Deep_CLIP"), fill=value))+
+#  geom_tile(aes(size=value),color="white")+
+#  scale_fill_viridis_c(option = "C")+
+# theme_bw()
+p <- ggplot() + theme_void() + theme(plot.margin=unit(rep(0.3,4),'cm')) + xlim(-3, 32.5) + ylim(-3, 8.5) + scale_fill_gradientn(colors = c('white', '#0A9287', 'red'),limits = c(0, 1), breaks = c(0, 0.2,0.4,0.6,0.8, 1)) + scale_color_gradientn(colors = c('white', '#0A9287', 'red'),limits = c(0, 1), breaks = c(0, 0.2,0.4,0.6,0.8, 1)) + 
+  geom_circle(aes(x0=1, y0=2, r=d[1, 2]*0.4, fill=d[1, 2], color = d[1, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=1, y0=3, r=d[1, 3]*0.4, fill=d[1, 3], color = d[1, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=1, y0=4, r=d[1, 4]*0.4, fill=d[1, 4], color = d[1, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=1, y0=5, r=d[1, 5]*0.4, fill=d[1, 5], color = d[1, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=1, y0=6, r=d[1, 6]*0.4, fill=d[1, 6], color = d[1, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=1, y0=7, r=d[1, 7]*0.4, fill=d[1, 7], color = d[1, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=1, y0=8, r=d[1, 8]*0.4, fill=d[1, 8], color = d[1, 8]), inherit.aes=FALSE) +
+  annotate('text', x=1, y=2, label= '*') + 
+  geom_circle(aes(x0=2, y0=2, r=d[2, 2]*0.4, fill=d[2, 2], color = d[2, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=2, y0=3, r=d[2, 3]*0.4, fill=d[2, 3], color = d[2, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=2, y0=4, r=d[2, 4]*0.4, fill=d[2, 4], color = d[2, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=2, y0=5, r=d[2, 5]*0.4, fill=d[2, 5], color = d[2, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=2, y0=6, r=d[2, 6]*0.4, fill=d[2, 6], color = d[2, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=2, y0=7, r=d[2, 7]*0.4, fill=d[2, 7], color = d[2, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=2, y0=8, r=d[2, 8]*0.4, fill=d[2, 8], color = d[2, 8]), inherit.aes=FALSE) +
+  annotate('text', x=2, y=2, label= '*') + 
+  geom_circle(aes(x0=3, y0=2, r=d[3, 2]*0.4, fill=d[3, 2], color = d[3, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=3, y0=3, r=d[3, 3]*0.4, fill=d[3, 3], color = d[3, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=3, y0=4, r=d[3, 4]*0.4, fill=d[3, 4], color = d[3, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=3, y0=5, r=d[3, 5]*0.4, fill=d[3, 5], color = d[3, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=3, y0=6, r=d[3, 6]*0.4, fill=d[3, 6], color = d[3, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=3, y0=7, r=d[3, 7]*0.4, fill=d[3, 7], color = d[3, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=3, y0=8, r=d[3, 8]*0.4, fill=d[3, 8], color = d[3, 8]), inherit.aes=FALSE) +
+  annotate('text', x=3, y=2, label= '*') + 
+  geom_circle(aes(x0=4, y0=2, r=d[4, 2]*0.4, fill=d[4, 2], color = d[4, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=4, y0=3, r=d[4, 3]*0.4, fill=d[4, 3], color = d[4, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=4, y0=4, r=d[4, 4]*0.4, fill=d[4, 4], color = d[4, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=4, y0=5, r=d[4, 5]*0.4, fill=d[4, 5], color = d[4, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=4, y0=6, r=d[4, 6]*0.4, fill=d[4, 6], color = d[4, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=4, y0=7, r=d[4, 7]*0.4, fill=d[4, 7], color = d[4, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=4, y0=8, r=d[4, 8]*0.4, fill=d[4, 8], color = d[4, 8]), inherit.aes=FALSE) +
+  annotate('text', x=4, y=2, label= '*') + 
+  geom_circle(aes(x0=5, y0=2, r=d[5, 2]*0.4, fill=d[5, 2], color = d[5, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=5, y0=3, r=d[5, 3]*0.4, fill=d[5, 3], color = d[5, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=5, y0=4, r=d[5, 4]*0.4, fill=d[5, 4], color = d[5, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=5, y0=5, r=d[5, 5]*0.4, fill=d[5, 5], color = d[5, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=5, y0=6, r=d[5, 6]*0.4, fill=d[5, 6], color = d[5, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=5, y0=7, r=d[5, 7]*0.4, fill=d[5, 7], color = d[5, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=5, y0=8, r=d[5, 8]*0.4, fill=d[5, 8], color = d[5, 8]), inherit.aes=FALSE) +
+  annotate('text', x=5, y=2, label= '*') + 
+  geom_circle(aes(x0=6, y0=2, r=d[6, 2]*0.4, fill=d[6, 2], color = d[6, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=6, y0=3, r=d[6, 3]*0.4, fill=d[6, 3], color = d[6, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=6, y0=4, r=d[6, 4]*0.4, fill=d[6, 4], color = d[6, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=6, y0=5, r=d[6, 5]*0.4, fill=d[6, 5], color = d[6, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=6, y0=6, r=d[6, 6]*0.4, fill=d[6, 6], color = d[6, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=6, y0=7, r=d[6, 7]*0.4, fill=d[6, 7], color = d[6, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=6, y0=8, r=d[6, 8]*0.4, fill=d[6, 8], color = d[6, 8]), inherit.aes=FALSE) +
+  annotate('text', x=6, y=2, label= '*') + 
+  geom_circle(aes(x0=7, y0=2, r=d[7, 2]*0.4, fill=d[7, 2], color = d[7, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=7, y0=3, r=d[7, 3]*0.4, fill=d[7, 3], color = d[7, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=7, y0=4, r=d[7, 4]*0.4, fill=d[7, 4], color = d[7, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=7, y0=5, r=d[7, 5]*0.4, fill=d[7, 5], color = d[7, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=7, y0=6, r=d[7, 6]*0.4, fill=d[7, 6], color = d[7, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=7, y0=7, r=d[7, 7]*0.4, fill=d[7, 7], color = d[7, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=7, y0=8, r=d[7, 8]*0.4, fill=d[7, 8], color = d[7, 8]), inherit.aes=FALSE) +
+  annotate('text', x=7, y=2, label= '*') + 
+  geom_circle(aes(x0=8, y0=2, r=d[8, 2]*0.4, fill=d[8, 2], color = d[8, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=8, y0=3, r=d[8, 3]*0.4, fill=d[8, 3], color = d[8, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=8, y0=4, r=d[8, 4]*0.4, fill=d[8, 4], color = d[8, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=8, y0=5, r=d[8, 5]*0.4, fill=d[8, 5], color = d[8, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=8, y0=6, r=d[8, 6]*0.4, fill=d[8, 6], color = d[8, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=8, y0=7, r=d[8, 7]*0.4, fill=d[8, 7], color = d[8, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=8, y0=8, r=d[8, 8]*0.4, fill=d[8, 8], color = d[8, 8]), inherit.aes=FALSE) +
+  annotate('text', x=8, y=3, label= '*') + 
+  geom_circle(aes(x0=9, y0=2, r=d[9, 2]*0.4, fill=d[9, 2], color = d[9, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=9, y0=3, r=d[9, 3]*0.4, fill=d[9, 3], color = d[9, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=9, y0=4, r=d[9, 4]*0.4, fill=d[9, 4], color = d[9, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=9, y0=5, r=d[9, 5]*0.4, fill=d[9, 5], color = d[9, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=9, y0=6, r=d[9, 6]*0.4, fill=d[9, 6], color = d[9, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=9, y0=7, r=d[9, 7]*0.4, fill=d[9, 7], color = d[9, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=9, y0=8, r=d[9, 8]*0.4, fill=d[9, 8], color = d[9, 8]), inherit.aes=FALSE) +
+  annotate('text', x=9, y=3, label= '*') + 
+  geom_circle(aes(x0=10, y0=2, r=d[10, 2]*0.4, fill=d[10, 2], color = d[10, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=10, y0=3, r=d[10, 3]*0.4, fill=d[10, 3], color = d[10, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=10, y0=4, r=d[10, 4]*0.4, fill=d[10, 4], color = d[10, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=10, y0=5, r=d[10, 5]*0.4, fill=d[10, 5], color = d[10, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=10, y0=6, r=d[10, 6]*0.4, fill=d[10, 6], color = d[10, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=10, y0=7, r=d[10, 7]*0.4, fill=d[10, 7], color = d[10, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=10, y0=8, r=d[10, 8]*0.4, fill=d[10, 8], color = d[10, 8]), inherit.aes=FALSE) +
+  annotate('text', x=10, y=2, label= '*') + 
+  geom_circle(aes(x0=11, y0=2, r=d[11, 2]*0.4, fill=d[11, 2], color = d[11, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=11, y0=3, r=d[11, 3]*0.4, fill=d[11, 3], color = d[11, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=11, y0=4, r=d[11, 4]*0.4, fill=d[11, 4], color = d[11, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=11, y0=5, r=d[11, 5]*0.4, fill=d[11, 5], color = d[11, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=11, y0=6, r=d[11, 6]*0.4, fill=d[11, 6], color = d[11, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=11, y0=7, r=d[11, 7]*0.4, fill=d[11, 7], color = d[11, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=11, y0=8, r=d[11, 8]*0.4, fill=d[11, 8], color = d[11, 8]), inherit.aes=FALSE) +
+  annotate('text', x=11, y=4, label= '*') + 
+  geom_circle(aes(x0=12, y0=2, r=d[12, 2]*0.4, fill=d[12, 2], color = d[12, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=12, y0=3, r=d[12, 3]*0.4, fill=d[12, 3], color = d[12, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=12, y0=4, r=d[12, 4]*0.4, fill=d[12, 4], color = d[12, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=12, y0=5, r=d[12, 5]*0.4, fill=d[12, 5], color = d[12, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=12, y0=6, r=d[12, 6]*0.4, fill=d[12, 6], color = d[12, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=12, y0=7, r=d[12, 7]*0.4, fill=d[12, 7], color = d[12, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=12, y0=8, r=d[12, 8]*0.4, fill=d[12, 8], color = d[12, 8]), inherit.aes=FALSE) +
+  annotate('text', x=12, y=2, label= '*') + 
+  geom_circle(aes(x0=13, y0=2, r=d[13, 2]*0.4, fill=d[13, 2], color = d[13, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=13, y0=3, r=d[13, 3]*0.4, fill=d[13, 3], color = d[13, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=13, y0=4, r=d[13, 4]*0.4, fill=d[13, 4], color = d[13, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=13, y0=5, r=d[13, 5]*0.4, fill=d[13, 5], color = d[13, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=13, y0=6, r=d[13, 6]*0.4, fill=d[13, 6], color = d[13, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=13, y0=7, r=d[13, 7]*0.4, fill=d[13, 7], color = d[13, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=13, y0=8, r=d[13, 8]*0.4, fill=d[13, 8], color = d[13, 8]), inherit.aes=FALSE) +
+  annotate('text', x=13, y=7, label= '*') + 
+  geom_circle(aes(x0=14, y0=2, r=d[14, 2]*0.4, fill=d[14, 2], color = d[14, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=14, y0=3, r=d[14, 3]*0.4, fill=d[14, 3], color = d[14, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=14, y0=4, r=d[14, 4]*0.4, fill=d[14, 4], color = d[14, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=14, y0=5, r=d[14, 5]*0.4, fill=d[14, 5], color = d[14, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=14, y0=6, r=d[14, 6]*0.4, fill=d[14, 6], color = d[14, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=14, y0=7, r=d[14, 7]*0.4, fill=d[14, 7], color = d[14, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=14, y0=8, r=d[14, 8]*0.4, fill=d[14, 8], color = d[14, 8]), inherit.aes=FALSE) +
+  annotate('text', x=14, y=2, label= '*') + 
+  geom_circle(aes(x0=15, y0=2, r=d[15, 2]*0.4, fill=d[15, 2], color = d[15, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=15, y0=3, r=d[15, 3]*0.4, fill=d[15, 3], color = d[15, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=15, y0=4, r=d[15, 4]*0.4, fill=d[15, 4], color = d[15, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=15, y0=5, r=d[15, 5]*0.4, fill=d[15, 5], color = d[15, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=15, y0=6, r=d[15, 6]*0.4, fill=d[15, 6], color = d[15, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=15, y0=7, r=d[15, 7]*0.4, fill=d[15, 7], color = d[15, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=15, y0=8, r=d[15, 8]*0.4, fill=d[15, 8], color = d[15, 8]), inherit.aes=FALSE) +
+  annotate('text', x=15, y=2, label= '*') + 
+  geom_circle(aes(x0=16, y0=2, r=d[16, 2]*0.4, fill=d[16, 2], color = d[16, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=16, y0=3, r=d[16, 3]*0.4, fill=d[16, 3], color = d[16, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=16, y0=4, r=d[16, 4]*0.4, fill=d[16, 4], color = d[16, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=16, y0=5, r=d[16, 5]*0.4, fill=d[16, 5], color = d[16, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=16, y0=6, r=d[16, 6]*0.4, fill=d[16, 6], color = d[16, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=16, y0=7, r=d[16, 7]*0.4, fill=d[16, 7], color = d[16, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=16, y0=8, r=d[16, 8]*0.4, fill=d[16, 8], color = d[16, 8]), inherit.aes=FALSE) +
+  annotate('text', x=16, y=8, label= '*') + 
+  geom_circle(aes(x0=17, y0=2, r=d[17, 2]*0.4, fill=d[17, 2], color = d[17, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=17, y0=3, r=d[17, 3]*0.4, fill=d[17, 3], color = d[17, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=17, y0=4, r=d[17, 4]*0.4, fill=d[17, 4], color = d[17, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=17, y0=5, r=d[17, 5]*0.4, fill=d[17, 5], color = d[17, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=17, y0=6, r=d[17, 6]*0.4, fill=d[17, 6], color = d[17, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=17, y0=7, r=d[17, 7]*0.4, fill=d[17, 7], color = d[17, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=17, y0=8, r=d[17, 8]*0.4, fill=d[17, 8], color = d[17, 8]), inherit.aes=FALSE) +
+  annotate('text', x=17, y=5, label= '*') + 
+  geom_circle(aes(x0=18, y0=2, r=d[18, 2]*0.4, fill=d[18, 2], color = d[18, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=18, y0=3, r=d[18, 3]*0.4, fill=d[18, 3], color = d[18, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=18, y0=4, r=d[18, 4]*0.4, fill=d[18, 4], color = d[18, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=18, y0=5, r=d[18, 5]*0.4, fill=d[18, 5], color = d[18, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=18, y0=6, r=d[18, 6]*0.4, fill=d[18, 6], color = d[18, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=18, y0=7, r=d[18, 7]*0.4, fill=d[18, 7], color = d[18, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=18, y0=8, r=d[18, 8]*0.4, fill=d[18, 8], color = d[18, 8]), inherit.aes=FALSE) +
+  annotate('text', x=18, y=5, label= '*') + 
+  geom_circle(aes(x0=19, y0=2, r=d[19, 2]*0.4, fill=d[19, 2], color = d[19, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=19, y0=3, r=d[19, 3]*0.4, fill=d[19, 3], color = d[19, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=19, y0=4, r=d[19, 4]*0.4, fill=d[19, 4], color = d[19, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=19, y0=5, r=d[19, 5]*0.4, fill=d[19, 5], color = d[19, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=19, y0=6, r=d[19, 6]*0.4, fill=d[19, 6], color = d[19, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=19, y0=7, r=d[19, 7]*0.4, fill=d[19, 7], color = d[19, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=19, y0=8, r=d[19, 8]*0.4, fill=d[19, 8], color = d[19, 8]), inherit.aes=FALSE) +
+  annotate('text', x=19, y=4, label= '*') + 
+  geom_circle(aes(x0=20, y0=2, r=d[20, 2]*0.4, fill=d[20, 2], color = d[20, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=20, y0=3, r=d[20, 3]*0.4, fill=d[20, 3], color = d[20, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=20, y0=4, r=d[20, 4]*0.4, fill=d[20, 4], color = d[20, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=20, y0=5, r=d[20, 5]*0.4, fill=d[20, 5], color = d[20, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=20, y0=6, r=d[20, 6]*0.4, fill=d[20, 6], color = d[20, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=20, y0=7, r=d[20, 7]*0.4, fill=d[20, 7], color = d[20, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=20, y0=8, r=d[20, 8]*0.4, fill=d[20, 8], color = d[20, 8]), inherit.aes=FALSE) +
+  annotate('text', x=20, y=5, label= '*') + 
+  geom_circle(aes(x0=21, y0=2, r=d[21, 2]*0.4, fill=d[21, 2], color = d[21, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=21, y0=3, r=d[21, 3]*0.4, fill=d[21, 3], color = d[21, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=21, y0=4, r=d[21, 4]*0.4, fill=d[21, 4], color = d[21, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=21, y0=5, r=d[21, 5]*0.4, fill=d[21, 5], color = d[21, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=21, y0=6, r=d[21, 6]*0.4, fill=d[21, 6], color = d[21, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=21, y0=7, r=d[21, 7]*0.4, fill=d[21, 7], color = d[21, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=21, y0=8, r=d[21, 8]*0.4, fill=d[21, 8], color = d[21, 8]), inherit.aes=FALSE) +
+  annotate('text', x=21, y=7, label= '*') + 
+  geom_circle(aes(x0=22, y0=2, r=d[22, 2]*0.4, fill=d[22, 2], color = d[22, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=22, y0=3, r=d[22, 3]*0.4, fill=d[22, 3], color = d[22, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=22, y0=4, r=d[22, 4]*0.4, fill=d[22, 4], color = d[22, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=22, y0=5, r=d[22, 5]*0.4, fill=d[22, 5], color = d[22, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=22, y0=6, r=d[22, 6]*0.4, fill=d[22, 6], color = d[22, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=22, y0=7, r=d[22, 7]*0.4, fill=d[22, 7], color = d[22, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=22, y0=8, r=d[22, 8]*0.4, fill=d[22, 8], color = d[22, 8]), inherit.aes=FALSE) +
+  annotate('text', x=22, y=4, label= '*') + 
+  geom_circle(aes(x0=23, y0=2, r=d[23, 2]*0.4, fill=d[23, 2], color = d[23, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=23, y0=3, r=d[23, 3]*0.4, fill=d[23, 3], color = d[23, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=23, y0=4, r=d[23, 4]*0.4, fill=d[23, 4], color = d[23, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=23, y0=5, r=d[23, 5]*0.4, fill=d[23, 5], color = d[23, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=23, y0=6, r=d[23, 6]*0.4, fill=d[23, 6], color = d[23, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=23, y0=7, r=d[23, 7]*0.4, fill=d[23, 7], color = d[23, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=23, y0=8, r=d[23, 8]*0.4, fill=d[23, 8], color = d[23, 8]), inherit.aes=FALSE) +
+  annotate('text', x=23, y=2, label= '*') + 
+  geom_circle(aes(x0=24, y0=2, r=d[24, 2]*0.4, fill=d[24, 2], color = d[24, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=24, y0=3, r=d[24, 3]*0.4, fill=d[24, 3], color = d[24, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=24, y0=4, r=d[24, 4]*0.4, fill=d[24, 4], color = d[24, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=24, y0=5, r=d[24, 5]*0.4, fill=d[24, 5], color = d[24, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=24, y0=6, r=d[24, 6]*0.4, fill=d[24, 6], color = d[24, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=24, y0=7, r=d[24, 7]*0.4, fill=d[24, 7], color = d[24, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=24, y0=8, r=d[24, 8]*0.4, fill=d[24, 8], color = d[24, 8]), inherit.aes=FALSE) +
+  annotate('text', x=24, y=3, label= '*') + 
+  geom_circle(aes(x0=25, y0=2, r=d[25, 2]*0.4, fill=d[25, 2], color = d[25, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=25, y0=3, r=d[25, 3]*0.4, fill=d[25, 3], color = d[25, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=25, y0=4, r=d[25, 4]*0.4, fill=d[25, 4], color = d[25, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=25, y0=5, r=d[25, 5]*0.4, fill=d[25, 5], color = d[25, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=25, y0=6, r=d[25, 6]*0.4, fill=d[25, 6], color = d[25, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=25, y0=7, r=d[25, 7]*0.4, fill=d[25, 7], color = d[25, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=25, y0=8, r=d[25, 8]*0.4, fill=d[25, 8], color = d[25, 8]), inherit.aes=FALSE) +
+  annotate('text', x=25, y=2, label= '*') + 
+  geom_circle(aes(x0=26, y0=2, r=d[26, 2]*0.4, fill=d[26, 2], color = d[26, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=26, y0=3, r=d[26, 3]*0.4, fill=d[26, 3], color = d[26, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=26, y0=4, r=d[26, 4]*0.4, fill=d[26, 4], color = d[26, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=26, y0=5, r=d[26, 5]*0.4, fill=d[26, 5], color = d[26, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=26, y0=6, r=d[26, 6]*0.4, fill=d[26, 6], color = d[26, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=26, y0=7, r=d[26, 7]*0.4, fill=d[26, 7], color = d[26, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=26, y0=8, r=d[26, 8]*0.4, fill=d[26, 8], color = d[26, 8]), inherit.aes=FALSE) +
+  annotate('text', x=26, y=7, label= '*') + 
+  geom_circle(aes(x0=27, y0=2, r=d[27, 2]*0.4, fill=d[27, 2], color = d[27, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=27, y0=3, r=d[27, 3]*0.4, fill=d[27, 3], color = d[27, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=27, y0=4, r=d[27, 4]*0.4, fill=d[27, 4], color = d[27, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=27, y0=5, r=d[27, 5]*0.4, fill=d[27, 5], color = d[27, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=27, y0=6, r=d[27, 6]*0.4, fill=d[27, 6], color = d[27, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=27, y0=7, r=d[27, 7]*0.4, fill=d[27, 7], color = d[27, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=27, y0=8, r=d[27, 8]*0.4, fill=d[27, 8], color = d[27, 8]), inherit.aes=FALSE) +
+  annotate('text', x=27, y=3, label= '*') + 
+  geom_circle(aes(x0=28, y0=2, r=d[28, 2]*0.4, fill=d[28, 2], color = d[28, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=28, y0=3, r=d[28, 3]*0.4, fill=d[28, 3], color = d[28, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=28, y0=4, r=d[28, 4]*0.4, fill=d[28, 4], color = d[28, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=28, y0=5, r=d[28, 5]*0.4, fill=d[28, 5], color = d[28, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=28, y0=6, r=d[28, 6]*0.4, fill=d[28, 6], color = d[28, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=28, y0=7, r=d[28, 7]*0.4, fill=d[28, 7], color = d[28, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=28, y0=8, r=d[28, 8]*0.4, fill=d[28, 8], color = d[28, 8]), inherit.aes=FALSE) +
+  annotate('text', x=28, y=2, label= '*') + 
+  geom_circle(aes(x0=29, y0=2, r=d[29, 2]*0.4, fill=d[29, 2], color = d[29, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=29, y0=3, r=d[29, 3]*0.4, fill=d[29, 3], color = d[29, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=29, y0=4, r=d[29, 4]*0.4, fill=d[29, 4], color = d[29, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=29, y0=5, r=d[29, 5]*0.4, fill=d[29, 5], color = d[29, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=29, y0=6, r=d[29, 6]*0.4, fill=d[29, 6], color = d[29, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=29, y0=7, r=d[29, 7]*0.4, fill=d[29, 7], color = d[29, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=29, y0=8, r=d[29, 8]*0.4, fill=d[29, 8], color = d[29, 8]), inherit.aes=FALSE) +
+  annotate('text', x=29, y=3, label= '*') + 
+  geom_circle(aes(x0=30, y0=2, r=d[30, 2]*0.4, fill=d[30, 2], color = d[30, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=30, y0=3, r=d[30, 3]*0.4, fill=d[30, 3], color = d[30, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=30, y0=4, r=d[30, 4]*0.4, fill=d[30, 4], color = d[30, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=30, y0=5, r=d[30, 5]*0.4, fill=d[30, 5], color = d[30, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=30, y0=6, r=d[30, 6]*0.4, fill=d[30, 6], color = d[30, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=30, y0=7, r=d[30, 7]*0.4, fill=d[30, 7], color = d[30, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=30, y0=8, r=d[30, 8]*0.4, fill=d[30, 8], color = d[30, 8]), inherit.aes=FALSE) +
+  annotate('text', x=30, y=2, label= '*') + 
+  geom_circle(aes(x0=31, y0=2, r=d[31, 2]*0.4, fill=d[31, 2], color = d[31, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=31, y0=3, r=d[31, 3]*0.4, fill=d[31, 3], color = d[31, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=31, y0=4, r=d[31, 4]*0.4, fill=d[31, 4], color = d[31, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=31, y0=5, r=d[31, 5]*0.4, fill=d[31, 5], color = d[31, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=31, y0=6, r=d[31, 6]*0.4, fill=d[31, 6], color = d[31, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=31, y0=7, r=d[31, 7]*0.4, fill=d[31, 7], color = d[31, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=31, y0=8, r=d[31, 8]*0.4, fill=d[31, 8], color = d[31, 8]), inherit.aes=FALSE) +
+  annotate('text', x=31, y=2, label= '*') + 
+  geom_circle(aes(x0=32, y0=2, r=d[32, 2]*0.4, fill=d[32, 2], color = d[32, 2]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=32, y0=3, r=d[32, 3]*0.4, fill=d[32, 3], color = d[32, 3]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=32, y0=4, r=d[32, 4]*0.4, fill=d[32, 4], color = d[32, 4]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=32, y0=5, r=d[32, 5]*0.4, fill=d[32, 5], color = d[32, 5]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=32, y0=6, r=d[32, 6]*0.4, fill=d[32, 6], color = d[32, 6]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=32, y0=7, r=d[32, 7]*0.4, fill=d[32, 7], color = d[32, 7]), inherit.aes=FALSE) +
+  geom_circle(aes(x0=32, y0=8, r=d[32, 8]*0.4, fill=d[32, 8], color = d[32, 8]), inherit.aes=FALSE) +
+  annotate('text', x=32, y=2, label= '*') + 
+  geom_segment(aes(x = 1.5, y = 1.5, xend = 1.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 2.5, y = 1.5, xend = 2.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 3.5, y = 1.5, xend = 3.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 4.5, y = 1.5, xend = 4.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 5.5, y = 1.5, xend = 5.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 6.5, y = 1.5, xend = 6.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 7.5, y = 1.5, xend = 7.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 8.5, y = 1.5, xend = 8.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 9.5, y = 1.5, xend = 9.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 10.5, y = 1.5, xend = 10.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 11.5, y = 1.5, xend = 11.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 12.5, y = 1.5, xend = 12.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 13.5, y = 1.5, xend = 13.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 14.5, y = 1.5, xend = 14.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 15.5, y = 1.5, xend = 15.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 16.5, y = 1.5, xend = 16.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 17.5, y = 1.5, xend = 17.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 18.5, y = 1.5, xend = 18.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 19.5, y = 1.5, xend = 19.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 20.5, y = 1.5, xend = 20.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 21.5, y = 1.5, xend = 21.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 22.5, y = 1.5, xend = 22.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 23.5, y = 1.5, xend = 23.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 24.5, y = 1.5, xend = 24.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 25.5, y = 1.5, xend = 25.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 26.5, y = 1.5, xend = 26.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 27.5, y = 1.5, xend = 27.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 28.5, y = 1.5, xend = 28.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 29.5, y = 1.5, xend = 29.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 30.5, y = 1.5, xend = 30.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 31.5, y = 1.5, xend = 31.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 32.5, y = 1.5, xend = 32.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 2.5, xend = 32.5, yend = 2.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 3.5, xend = 32.5, yend = 3.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 4.5, xend = 32.5, yend = 4.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 5.5, xend = 32.5, yend = 5.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 6.5, xend = 32.5, yend = 6.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 7.5, xend = 32.5, yend = 7.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 8.5, xend = 32.5, yend = 8.5), size=0.5, color='#C0C0C0') +
+  geom_segment(aes(x = 0.5, y = 1.5, xend = 0.5, yend = 8.5), size=0.5, color='#C0C0C0') + geom_segment(aes(x = 0.5, y = 1.5, xend = 32.5, yend = 1.5), size=0.5, color='#C0C0C0') + 
+  annotate('text', x=1, y=1, label= 'AGO2_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=2, y=1, label= 'AGO2-M_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=3, y=1, label= 'AGO1234_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=4, y=1, label= 'Binding_1_HITSCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=5, y=1, label= 'Binding_2_HITSCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=6, y=1, label= 'eIF4AIII_1_CLIPSEQ',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=7, y=1, label= 'eIF4AIII_2_CLIPSEQ',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=8, y=1, label= 'ELVAL1-1_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=9, y=1, label= 'ELVAL1-2_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=10, y=1, label= 'ELVAL1-A_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=11, y=1, label= 'ELVAL1-M_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=12, y=1, label= 'EWSR1_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=13, y=1, label= 'FUS_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=14, y=1, label= 'hnRNPC-1_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=15, y=1, label= 'hnRNPC-2_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=16, y=1, label= 'hnRNPL-1_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=17, y=1, label= 'hnRNPL-2_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=18, y=1, label= 'HnRNPL-L_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=19, y=1, label= 'IGF2BP1-3_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=20, y=1, label= 'MOV10_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=21, y=1, label= 'mut-FUS_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=22, y=1, label= 'NSUN2_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=23, y=1, label= 'PUM2_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=24, y=1, label= 'QKI_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=25, y=1, label= 'SFRS1_CLIPSEQ',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=26, y=1, label= 'TAF15_PARCLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=27, y=1, label= 'TDP-43_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=28, y=1, label= 'TIA1_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=29, y=1, label= 'TIAL1_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=30, y=1, label= 'U2AF65_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=31, y=1, label= 'Y2AF65_ICLIP',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=32, y=1, label= 'AVG.',col='black', size=3.5, angle=270, hjust = 0) + 
+  annotate('text', x=0, y=2, label= '3UTRBERT',col='black', size=3.5, angle=180, hjust = 0) + 
+  annotate('text', x=0, y=3, label= 'BERT_RBP',col='black', size=3.5, angle=180, hjust = 0) + 
+  annotate('text', x=0, y=4, label= 'iDeepE',col='black', size=3.5, angle=180, hjust = 0) + 
+  annotate('text', x=0, y=5, label= 'RNABERT',col='black', size=3.5, angle=180, hjust = 0) + 
+  annotate('text', x=0, y=6, label= 'GraphProt2',col='black', size=3.5, angle=180, hjust = 0) + 
+  annotate('text', x=0, y=7, label= 'RPI_Net',col='black', size=3.5, angle=180, hjust = 0) + 
+  annotate('text', x=0, y=8, label= 'DeepCLIP',col='black', size=3.5, angle=180, hjust = 0) + 
+  theme(legend.title=element_blank())
+ggsave('bubbleheatmap.png', p, device='png', path='/Users/reagan/Desktop/3UTRBERT_visualiztion/bubble_heatmap', width = 32, height = 10.5, units = 'cm', dpi=800, bg = 'white')

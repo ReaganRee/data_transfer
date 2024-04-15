@@ -1,0 +1,7 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[GATC]TCAAA[GATC],No,RBMX,ENSG00000147274,Homo_sapiens,UCAAAA,NMR spectroscopy; isothermal titration calorimetry,RRM,6,-1,0.000437749,0.692956,1,6
+[GATC]TCAAA[GATC],No,SF3B4,ENSDARG00000018574,Danio_rerio,CAAAAG,RNAcompete,RRM,6,-1,0.00154105,2.43948,1,6
+[GATC]TCAAA[GATC],No,RBMX,ENSG00000147274,Homo_sapiens,UCAAA,SOLUTION NMR,RRM,5,-1,0.00158852,2.51463,1,5
+[GATC]TCAAA[GATC],No,UAF-1,WBGENE00006697,Caenorhabditis_elegans,UUUUCAAA,UV cross-linking,RRM,8,2,0.0019302,3.05551,1,6
+[GATC]TCAAA[GATC],No,RBMX,ENSG00000147274,Homo_sapiens,AUCAAA,NMR spectroscopy; isothermal titration calorimetry,RRM,6,0,0.00275402,4.35961,1,6
+[GATC]TCAAA[GATC],No,TRA2,FBGN0003742,Drosophila_melanogaster,CAAAA,SELEX,RRM,5,-2,0.00398617,6.31011,1,5

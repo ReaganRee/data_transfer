@@ -1,0 +1,10 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+[GATC]T[CT]CTT[GATC],No,PTBP1,ENSG00000011304,Homo_sapiens,UUUCUUU,UV crosslink; western blot; immunoprecipitation in HeLa nuclear extracts.,PTBP1,7,0,0.000300003,0.474905,0.280033,7
+[GATC]T[CT]CTT[GATC],No,PTBP1,ENSG00000011304,Homo_sapiens,UUCUUU,Mutagenesis; Pull down assay and Western blot with HeLa nucelar extract.,PTBP1,6,-1,0.00181712,2.8765,0.280033,6
+[GATC]T[CT]CTT[GATC],No,PTBP1,ENSG00000011304,Homo_sapiens,CCUUCCUU,Mutational analysis.,PTBP1,8,2,0.00184892,2.92684,0.280033,6
+[GATC]T[CT]CTT[GATC],No,RBM4,ENSG00000173933,Homo_sapiens,CCUUCCUU,Mutational analysis.,RRM;ZF_CCHC,8,2,0.00184892,2.92684,0.280033,6
+[GATC]T[CT]CTT[GATC],No,PTBP1,ENSG00000011304,Homo_sapiens,UUCUUUU,In vivo splicing assay;Mutagenesis;UV cross-linking,RRM,7,0,0.00236738,3.74757,0.280033,7
+[GATC]T[CT]CTT[GATC],No,TIA1,ENSG00000116001,Homo_sapiens,UUCUCCUUUC,NMR; isothermal titration calorimetry and SAXS.,RRM,10,2,0.00257014,4.06853,0.280033,7
+[GATC]T[CT]CTT[GATC],No,TLR3,ENSMUSG00000031639,Mus_musculus,UUCCU,X-RAY DIFFRACTION,LRR;TIR,5,0,0.00457394,7.24055,0.280033,5
+[GATC]T[CT]CTT[GATC],No,TBG972.9.4840,TBG972.9.4840,Trypanosoma_brucei,CUUUCU,RNAcompete,RRM,6,1,0.00461311,7.30255,0.280033,6
+[GATC]T[CT]CTT[GATC],No,PTBP1,ENSG00000011304,Homo_sapiens,UUACUUU,RNAcompete using recombinant protein,PTBP1,7,0,0.00583809,9.24169,0.280033,7

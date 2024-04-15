@@ -1,0 +1,3 @@
+Meme motif,Meme E-value,Gene Name,Gene ID,Organism,Reported Sequence,Experiment(S),family,Motif Lenght,Offset,P-Value,Tomtom E-Value,Q-value,Overlap
+TCCTGG[GATC],No,RPB2,YOR151C,Saccharomyces_cerevisiae,CCUGG,X-RAY DIFFRACTION,RNA_POL_RPB2,5,-1,0.000779214,1.2335,1,5
+TCCTGG[GATC],No,SRSF6,ENSG00000124193,Homo_sapiens,GCUCAUCCUGGC,EMSA; UV crosslink.,RRM,12,5,0.00448382,7.09789,1,7
